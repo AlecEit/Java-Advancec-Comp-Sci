@@ -14,6 +14,7 @@ public class ConditionalChallenge{
 
         System.out.println("--- Part 2: Grade Calculator ---");
         int score = 85;
+        System.out.println("Score: " + score);
         if(score >= 70){
             System.out.println("Passed");
         }
@@ -40,7 +41,7 @@ public class ConditionalChallenge{
             System.out.println(number + " is Positive");
         }
         if(number % 2 == 0 ){
-        System.out.println(number + " is Even");
+        System.out.println(number + " is even");
         }
         else{
             System.out.println(number + " is odd");
